@@ -1,3 +1,5 @@
+import assert
+
 def test_tester():
-    print(True)
+    assertTrue(True)
     

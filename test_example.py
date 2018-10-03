@@ -1,5 +1,4 @@
-import assert
-
 def test_tester():
-    assertTrue(True)
+    if 1 == 1:
+        print("working")
     
