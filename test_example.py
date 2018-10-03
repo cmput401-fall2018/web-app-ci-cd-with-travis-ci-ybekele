@@ -1,3 +1,2 @@
-def test_tester:
-    print("Working")
+def test_tester(print("Working"))
     

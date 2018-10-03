@@ -1,4 +1,3 @@
-def test_function:
+def test_tester:
     print("Working")
-
     
