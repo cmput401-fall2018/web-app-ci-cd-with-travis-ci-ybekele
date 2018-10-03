@@ -1,6 +1,5 @@
-#Test
-
-import unittest
 def test_function:
-    assertTrue(True)
-    return 
+    if 1 == 1:
+        print("Working")
+
+    

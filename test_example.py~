@@ -1,6 +1,3 @@
-#Test
-
-import unittest
-def test:
+def test_function:
     assertTrue(True)
-    return 
+    
