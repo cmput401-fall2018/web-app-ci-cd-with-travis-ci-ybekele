@@ -1,2 +1,5 @@
-def test_tester(print("Working"))
+import assert
+
+def test_tester():
+    assertTrue(True)
     
