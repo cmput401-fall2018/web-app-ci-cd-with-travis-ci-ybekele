@@ -1,6 +1,6 @@
 #Test
 
 import unittest
-def test_function:
+def test:
     assertTrue(True)
     return 
