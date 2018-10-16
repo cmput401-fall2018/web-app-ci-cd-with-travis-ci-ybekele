@@ -1,11 +1,9 @@
+
 body {
-        background-color: red;
+    background-color: red;
 }
+
 h1 {
     color: navy;
     margin-left: 20px;
-}
-
-p {
-    color: lightblue;
 }
