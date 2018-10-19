@@ -13,17 +13,16 @@
 
 <style>
 div.a {
-        text-align: center;
+        
   <!--  https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation2 -->
-    width: 10000px;
-    height: 100px;
+    width: 100%;
+    height: 50%;
     background-color: red;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     animation-name: example;
     animation-duration: 25s;
 }
-
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     0%   {background-color: red;}
@@ -31,7 +30,6 @@ div.a {
     50%  {background-color: blue;}
     100% {background-color: green;}
 }
-
 /* Standard syntax */
 @keyframes example {
     0%   {background-color: red;}
@@ -43,26 +41,32 @@ div.a {
 
  <style>
      
-
 div.b {
     text-align: center;
 </style>
 
-</head>
+<div class="grid">
+  
+  <header>
+    <h1 id="name">Yonael Bekele</h1>
+  </header>
+
 
 <body>
-  
-    <div class="a"> 
-  <h1 id="name">Yonael Bekele</h1>
-  </div>
-    
-    <div class="b">
-  <p id="about">401 student</p>
-  <p id="education">Ualberta Comp sci undergraduate</p>
-  <p id="skills">Programming Languages: Python, C, Java, HTML, CSS Technical Frameworks: Django, Android, SQlite, Elasticsearch</p>
-  <p id="work">Full-time student</p>
-  <p id="contact">email: yonael@ualberta.ca github: ybekele</p>
+  <div class="b">
+    <p id="about"><b> About me </b> CMPUT 401 student</p>
+    <p id="education"> <b> Education </b> Ualberta Comp sci undergraduate</p>
+    <p id="skills"> <b> Skills include </b> Programming Languages: Python, C, Java, HTML, CSS Technical Frameworks: Django, Android, SQlite, Elasticsearch</p>
+    <p id="work"> <b>Current employment </b>Full-time student</p>
+  <p id="contact"> <Contact Info email: yonael@ualberta.ca github: ybekele</p>
       </div>
+ 
+  
+  <footer>
+    Thanks For Visiting
+    </footer>
+</div>
+
   
   
   
