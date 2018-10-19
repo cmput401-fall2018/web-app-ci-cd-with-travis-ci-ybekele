@@ -1,12 +1,44 @@
 
-body {
-        background-color: gray;
+.grid {
+  
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+  grid-gap: 1em;
+  background-color: lightgreen;
 }
-h1 {
-    color: navy;
-    margin-left: 20px;
+
+
+header, footer {
+  grid-column: 1 / 4;
+}
+
+@media all and (max-width: 700px) {
+  aside,
+  article {
+    grid-column: 1 / 4;
+  }
+}
+
+/* Demo Specific Styles */
+body {
+  margin: 0 auto;
+  max-width: 56em;
+  padding: 1em 0;
+}
+
+header,
+aside,
+article,
+footer {
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
 }
 
 p {
-    color: pink;
+    text-align: center; 
+    width: 100%;
 }
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns -->
