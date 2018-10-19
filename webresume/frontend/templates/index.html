@@ -10,15 +10,62 @@
   <title>Yonael's Web Page</title>
   <link rel="stylesheet" href="/static/style.css" type="text/css"/>
 
+
+<style>
+div.a {
+        text-align: center;
+  <!--  https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation2 -->
+    width: 10000px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 25s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+</style>
+
+ <style>
+     
+
+div.b {
+    text-align: center;
+</style>
+
 </head>
 
 <body>
+  
+    <div class="a"> 
   <h1 id="name">Yonael Bekele</h1>
+  </div>
+    
+    <div class="b">
   <p id="about">401 student</p>
   <p id="education">Ualberta Comp sci undergraduate</p>
   <p id="skills">Programming Languages: Python, C, Java, HTML, CSS Technical Frameworks: Django, Android, SQlite, Elasticsearch</p>
   <p id="work">Full-time student</p>
   <p id="contact">email: yonael@ualberta.ca github: ybekele</p>
+      </div>
+  
+  
+  
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>
   $(window).on('load', function(){
@@ -39,4 +86,5 @@
   });
   </script>
 </body>
+
 </html>
