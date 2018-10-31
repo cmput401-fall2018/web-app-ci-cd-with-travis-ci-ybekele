@@ -1,9 +1,30 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+<<<<<<< HEAD
+
+def test_home():    
+	driver = webdriver.Chrome()    
+	driver.get("http://162.246.157.120:8000/")    
+	elem_name = driver.find_element_by_id("name")
+	elem_about = driver.find_element_by_id("about")
+	elem_education = driver.find_element_by_id("education")
+	elem_skills = driver.find_element_by_id("skills")
+	elem_work = driver.find_element_by_id("work")
+	elem_contact = driver.find_element_by_id("contact")
+	assert elem_name != None
+	assert elem_about != None
+	assert elem_education != None
+	assert elem_skills != None
+	assert elem_work != None
+	assert elem_contact != None
+
+
+=======
 def test_tester():
       driver = webdriver.Chrome()
       driver.get("http://162.246.157.120:8000/")
       elem = driver.find_element_by_id("name")
       assert elem != None
     
+>>>>>>> be017060c8408a57958985ed2e5ceedc7ec97738
