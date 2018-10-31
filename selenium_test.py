@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+<<<<<<< HEAD
 
 def test_home():    
 	driver = webdriver.Chrome()    
@@ -19,3 +20,11 @@ def test_home():
 	assert elem_contact != None
 
 
+=======
+def test_tester():
+      driver = webdriver.Chrome()
+      driver.get("http://162.246.157.120:8000/")
+      elem = driver.find_element_by_id("name")
+      assert elem != None
+    
+>>>>>>> be017060c8408a57958985ed2e5ceedc7ec97738
