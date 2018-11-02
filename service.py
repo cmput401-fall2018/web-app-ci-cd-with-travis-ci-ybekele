@@ -1,6 +1,6 @@
 import random
 
-class Service(self):
+class Service():
 
     # returns a random number
     # NOTE: You do not need to modify this method!
