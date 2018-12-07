@@ -1,6 +1,6 @@
-def test_home():    
-	driver = webdriver.Chrome()    
-	driver.get("http://162.246.157.120:8000/")    
+def test_home():
+	driver = webdriver.Chrome()
+	driver.get("http://162.246.157.120:8000/")
 	elem_name = driver.find_element_by_id("name")
 	elem_about = driver.find_element_by_id("about")
 	elem_education = driver.find_element_by_id("education")
@@ -13,3 +13,5 @@ def test_home():
 	assert elem_skills != None
 	assert elem_work != None
 	assert elem_contact != None
+
+	asdgasgasgdas
