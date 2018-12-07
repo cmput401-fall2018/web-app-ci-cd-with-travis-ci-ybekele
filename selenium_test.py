@@ -18,3 +18,5 @@ def test_home():
 	assert elem_skills != None
 	assert elem_work != None
 	assert elem_contact != None
+	
+test_home()
