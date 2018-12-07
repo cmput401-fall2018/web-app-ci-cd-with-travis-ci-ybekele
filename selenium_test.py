@@ -4,7 +4,8 @@ from selenium.webdriver.common.keys import Keys
 
 
 def test_home():
-	#driverLocation = 'Users/yonaelbekele/Downloads/chromedriver'
+	#driverLocation = '/Users/yonaelbekele/Documents/GitHub/web-app-ci-cd-with-travis-ci-ybekele/chromedriver.exe' 
+	#driverLocation = '/Users/yonaelbekele/Downloads/chromedriver.exe'
 	#driver = webdriver.Chrome(driverLocation) 
 	driver = webdriver.Chrome()
 	driver.get("http://162.246.157.120:8000/")
